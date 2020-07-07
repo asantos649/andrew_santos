@@ -8,22 +8,22 @@ function MainContainer(props){
     
     const renderContent = () => {
         switch(props.page){
-            case 'welcome':
+            case 1:
                 return <Welcome />
-            case 'bio':
+            case 2:
                 return <Bio />
-            case 'projects':
+            case 3:
                 return <Projects />
-            case 'experience':
+            case 4:
                 return <Experience />
         }
     }
 
     return(
         <>
-            <button>{'<'}</button>
+            <button onClick={()=>props.handlePage('-')}>{'<'}</button>
             {renderContent()}
-            <button>{'>'}</button>
+            <button onClick={()=>props.handlePage('+')}>{'>'}</button>
         </>
     )
 }
