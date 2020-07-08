@@ -30,10 +30,10 @@ class App extends React.Component {
 
   render(){
     return (
-      <>
+      <div className='content'>
         <Header/>
         <MainContainer page={this.state.page} handlePage={this.handlePage}/>
-      </>
+      </div>
     );
   }
 }
