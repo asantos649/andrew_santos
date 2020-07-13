@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MainContainer from './container/MainContainer'
 import Header from './component/Header'
+import TableOfContents from './component/TableOfContents'
 
 
 class App extends React.Component {
@@ -32,6 +33,7 @@ class App extends React.Component {
     return (
       <div className='content'>
         <Header/>
+        <TableOfContents/>
         <MainContainer page={this.state.page} handlePage={this.handlePage}/>
       </div>
     );

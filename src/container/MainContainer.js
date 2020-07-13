@@ -11,11 +11,11 @@ function MainContainer(props){
             case 1:
                 return <Welcome />
             case 2:
-                return <Bio />
-            case 3:
                 return <Projects />
-            case 4:
+            case 3:
                 return <Experience />
+            case 4:
+                return <Bio />
         }
     }
 
