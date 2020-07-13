@@ -21,9 +21,9 @@ function MainContainer(props){
 
     return(
         <div className='mainContainer'>
-            <button className='leftButton' onClick={()=>props.handlePage('-')}>{'<'}</button>
+            <div className='moveButton' onClick={()=>props.handlePage('-')}>{'<'}</div>
             {renderContent()}
-            <button className='rightButton' onClick={()=>props.handlePage('+')}>{'>'}</button>
+            <div className='moveButton' onClick={()=>props.handlePage('+')}>{'>'}</div>
         </div>
     )
 }
