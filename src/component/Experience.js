@@ -21,9 +21,10 @@ function Experience(){
         {
             company: 'Epic Systems',
             location: 'Madison, WI',
-            role: 'Software Tester, QA Role Lead for analytics and third-party integrations functional areas ',
+            role: 'Software Tester',
             dates: 'June 2016 to July 2019',
             data: [
+                    'QA Role Lead for analytics and third-party integrations functional areas',
                 	'Managed multiple concurrent development projects from initial design through release ',
                 	'Identified functional bugs and usability improvements to increase software quality ',
                 	'Pioneered a new Quality Assurance content creation project while providing feedback and suggesting improvements ',
@@ -43,7 +44,7 @@ function Experience(){
     }
 
     return(
-        <div>
+        <div className='cardContainer'>
             {/* <h1>Experience</h1> */}
             {renderExperiences()}
         </div>

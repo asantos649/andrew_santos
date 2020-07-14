@@ -124,7 +124,8 @@ div {
   /* vertical-align: middle;
   line-height: 100%; */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   font-size: 2rem;
   border-radius: 19px;
@@ -165,6 +166,7 @@ div {
   border-bottom-color: white;
   -webkit-transition: all .2s;
   -moz-transition: all .2s;
+  cursor:pointer;
 }
 
 #selectedPage{
@@ -173,13 +175,8 @@ div {
 }
 
 .experienceCard{
-  display:flex;
   background-color: rgb(18,18,18);
-  max-width: 875px;
-  /* width: 90vw; */
-  flex: 1 1 auto;
-  font-size:1.25rem;
-  flex-direction: column;
+
   padding: 2%;
   margin: 1%;
   border-radius: 20px;
@@ -190,6 +187,25 @@ div {
 
 .experienceCard div{
   background-color: rgb(18,18,18);
+}
+
+.expRow{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* flex-grow: 1; */
+  /* width: 100%; */
+}
+
+.cardContainer{
+  width:100%;
+  max-width: 850px;
+  display:flex;
+  /* background-color: rgb(18,18,18); */
+  /* max-width: 850px; */
+  /* width: 100%; */
+  font-size:1.25rem;
+  flex-direction: column;
 }
 
 /* button {
