@@ -13,7 +13,7 @@ class App extends React.Component {
     maxPages:4
   }
 
-  handlePage = (plusMinus) => {
+  handlePageArrow = (plusMinus) => {
     if (plusMinus === '-'){
       if(this.state.page === 1){
         this.setState({page:this.state.maxPages})
@@ -29,12 +29,16 @@ class App extends React.Component {
     }
   }
 
+  handlePageTOC = (newPage) => {
+    this.setState({page:newPage})
+  }
+
   render(){
     return (
       <div className='content'>
         <Header/>
-        <TableOfContents/>
-        <MainContainer page={this.state.page} handlePage={this.handlePage}/>
+        <TableOfContents page={this.state.page} handlePage={this.handlePageTOC}/>
+        <MainContainer page={this.state.page} handlePage={this.handlePageArrow}/>
       </div>
     );
   }
