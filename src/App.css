@@ -172,6 +172,26 @@ div {
   border-bottom-color: white;
 }
 
+.experienceCard{
+  display:flex;
+  background-color: rgb(18,18,18);
+  max-width: 875px;
+  /* width: 90vw; */
+  flex: 1 1 auto;
+  font-size:1.25rem;
+  flex-direction: column;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 20px;
+  border-style:solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.experienceCard div{
+  background-color: rgb(18,18,18);
+}
+
 /* button {
   color: white;
   font-size: 2rem;
