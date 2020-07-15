@@ -5,13 +5,18 @@ function ExperienceCard(props){
     return (
         <div className='experienceCard'>
             <div className='expRow'>
-                <div>{company}</div>
+                <div className='companyTitle'>{company}</div>
                 <div>{dates}</div>
             </div>
             <div className='expRow'>
                 <div>{location}</div>
                 <div>{role}</div>
             </div>
+            <ul className='expList'>
+                {data.map(desc=>{
+                    return <li className='expDescription'>{desc}</li>
+                })}
+            </ul>
             
         </div>
     )

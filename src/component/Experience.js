@@ -11,7 +11,7 @@ function Experience(){
             dates: 'November 2019 - Present',
             data: [
                 'Explain beginner and intermediate coding principles to students who are new to the industry',
-                'Handle both technical and intrapersonal issues of cohorts of up to 30 students',
+                'Handle both technical and interpersonal issues of cohorts of up to 30 students',
                 'Approve and restructure domain models and React component hierarchies for various student projects ',
                 'Evaluate technical aptitude of students based on code challenges and personal projects',
                 'Run supplemental lectures and code reviews both remotely and in-person',
