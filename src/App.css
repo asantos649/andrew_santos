@@ -7,6 +7,10 @@ div {
   background-color: rgb(35, 35, 35);
 }
 
+a {
+  color: royalblue
+}
+
 #root {
   background-color: black;
 }
@@ -125,7 +129,7 @@ div {
   line-height: 100%; */
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 2rem;
   border-radius: 19px;
@@ -137,20 +141,56 @@ div {
   user-select: none;
   /* font-stretch: ultra-condensed; */
 }
+
 .moveButton:hover {
   opacity: 1;
   background-color: rgb(80, 80, 80);
   -webkit-transition: all .25s;
   -moz-transition: all .25s;
+
+  /* transform: scale(1); */
+  animation: pulse 1s 1;
+  padding-top: -10px;
 }
+
+/* .moveButton span{
+  transform: scale(1);
+	animation: pulse 2s infinite;
+} */
+
+@keyframes pulse {
+	0% {
+    font-size: 2.00rem;
+  }
+  /* 10% {
+    font-size: 2.04rem;
+  }
+  20% {
+    font-size: 2.08rem;
+  }
+  30% {
+    font-size: 2.12rem;
+  }
+  40% {
+    font-size: 2.16rem; */
+  /* } */
+	50% { 
+    font-size: 2.15rem;
+  }
+	100% {
+    font-size: 2.00rem;
+		/* transform: scale(0.95); */
+	}
+}
+
 
 .tableOfContents{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 2rem;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  font-size: 1.5rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .navLink{
@@ -183,6 +223,9 @@ div {
   border-style:solid;
   border-color: black;
   border-width: 1px;
+
+  /* display: flex;
+  align-items: flex-end; */
 }
 
 .experienceCard div{
@@ -221,6 +264,20 @@ div {
 .expList{
   /* margin-left:0px; */
   padding-inline-start: 20px;
+}
+
+.demoVideo{
+  min-width:700px;
+  min-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  /* float: center; */
+}
+
+.demoWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* button {

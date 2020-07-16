@@ -1,5 +1,5 @@
 import React from 'react'
-import Welcome from '../component/Welcome'
+import Links from '../component/Links'
 import Bio from '../component/Bio'
 import Projects from '../component/Projects'
 import Experience from '../component/Experience'
@@ -9,13 +9,13 @@ function MainContainer(props){
     const renderContent = () => {
         switch(props.page){
             case 1:
-                return <Welcome />
-            case 2:
                 return <Projects />
-            case 3:
+            case 2:
                 return <Experience />
-            case 4:
+            case 3:
                 return <Bio />
+            case 4:
+                return <Links />
         }
     }
 
@@ -23,9 +23,13 @@ function MainContainer(props){
         <div className='mainContainer'>
             <div className='moveButton' onClick={()=>props.handlePage('-')}>
                 <span>{'<'}</span>
+                <span>{'<'}</span>
+                <span>{'<'}</span>
             </div>
             {renderContent()}
             <div className='moveButton' onClick={()=>props.handlePage('+')}>
+                <span>{'>'}</span>
+                <span>{'>'}</span>
                 <span>{'>'}</span>
             </div>
         </div>
