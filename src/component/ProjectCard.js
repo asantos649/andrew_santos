@@ -3,11 +3,11 @@ import React from 'react'
 function ProjectCard(props){
     const {projectName, githubLink, videoLink, description, collaboration,  data} = props.project
     return (
-        <div className='experienceCard'>
-            <div className='expRow'>
-                <div className='companyTitle'>{projectName}</div>
+        <div className='card'>
+            <div className='cardRow'>
+                <div className='cardTitle'>{projectName}</div>
             </div>
-            <div className='expRow'>
+            <div className='cardRow'>
                 <a href={githubLink}>Link to Code</a>
             </div>
             <div className='demoWrapper'>
@@ -20,9 +20,9 @@ function ProjectCard(props){
                     title='video'
                 />
             </div>
-            <ul className='expList'>
+            <ul className='cardList'>
                 {data.map(desc=>{
-                    return <li className='expDescription'>{desc}</li>
+                    return <li className='cardDescription'>{desc}</li>
                 })}
             </ul>
             
