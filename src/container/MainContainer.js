@@ -1,5 +1,5 @@
 import React from 'react'
-import Links from '../component/Links'
+import Education from '../component/Education'
 import Bio from '../component/Bio'
 import Projects from '../component/Projects'
 import Experience from '../component/Experience'
@@ -13,9 +13,9 @@ function MainContainer(props){
             case 2:
                 return <Experience />
             case 3:
-                return <Bio />
+                return <Education />
             case 4:
-                return <Links />
+                return <Bio />
         }
     }
 
