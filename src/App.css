@@ -8,7 +8,7 @@ div {
 }
 
 a {
-  color: royalblue
+  color: royalblue;
 }
 
 #root {
@@ -102,7 +102,13 @@ a {
 }
 
 .shortBio {
-  padding:2%;
+  margin:1.5%;
+  padding-bottom:5px;
+  /* border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: .5px;
+  border-color: rgba(128, 128, 128, 0.199); */
 }
 
 .mainContainer{
@@ -288,7 +294,12 @@ a {
   margin-left:5%
 }
 
-
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.15rem;
+}
 
 /* button {
   color: white;
