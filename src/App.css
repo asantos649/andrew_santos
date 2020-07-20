@@ -315,6 +315,8 @@ a {
   .header{
     display:flex;
     flex-direction: column;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
 
   #headerPic{
@@ -349,6 +351,10 @@ a {
 
   .moveButton{
     display:none;
+  }
+
+  .cardContainer{
+    border-radius: 20px;
   }
   
 }
