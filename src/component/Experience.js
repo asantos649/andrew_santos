@@ -6,7 +6,7 @@ function Experience(){
     const experienceHash = [
         {
             company: 'Flatiron School',
-            location: 'NeW York, NY',
+            location: 'New York, NY',
             role: 'Software Engineering Coach',
             dates: 'November 2019 - Present',
             data: [
