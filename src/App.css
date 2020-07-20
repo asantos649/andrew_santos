@@ -320,6 +320,10 @@ a {
     border-bottom-right-radius: 2px; */
   }
 
+  .name{
+    font-size:2.8rem;
+  }
+
   #headerPic{
     margin-left: auto;
     margin-right: auto;
