@@ -6,12 +6,12 @@ function Experience(){
     const experienceHash = [
         {
             company: 'Flatiron School',
-            location: 'NYC, NY',
+            location: 'NeW York, NY',
             role: 'Software Engineering Coach',
             dates: 'November 2019 - Present',
             data: [
-                'Explain beginner and intermediate coding principles to students who are new to the industry',
-                'Handle both technical and interpersonal issues of cohorts of up to 30 students',
+                'Teach beginner and intermediate coding principles to students who are new to the industry',
+                'Handle both technical and interpersonal issues arising in cohorts of up to 30 students',
                 'Approve and restructure domain models and React component hierarchies for various student projects ',
                 'Evaluate technical aptitude of students based on code challenges and personal projects',
                 'Run supplemental lectures and code reviews both remotely and in-person',
@@ -32,7 +32,7 @@ function Experience(){
                 	'Created, updated, and ran through test plans for multiple application features to ensure thorough testing ',
                 	'Performed iterative design review for new functionality to catch potential bugs before initial development',
                 	'Organized regular and ad-hoc team-wide testing efforts that discovered and fixed new bugs',
-                    'Participated in root cause analyses for released bugs and problematic projects that yielded new processes'
+                    'Participated in root-cause analyses for released bugs and problematic projects that yielded new processes'
                 ] 
         }
         ]

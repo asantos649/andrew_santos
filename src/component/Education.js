@@ -4,7 +4,7 @@ import EducationCard from './EducationCard'
 const educationHash = [
     {
         school: 'Flatiron School',
-        location: 'NYC, NY',
+        location: 'New York, NY',
         degree: 'Software Engineering Immersive Program',
         dates: 'July 2019 - October 2019',
         data: [

@@ -13,7 +13,7 @@ const projects =[
                         },
         data:[
             'Learned Socket.io to enable bi-directional, real-time, event-based communication',
-            'Utilized Redux to manage state across multiple React Components',
+            'Utilized Redux to manage state across multiple React components',
             'Designed application using media queries and custom CSS to enable a mobile user experience',
         ]
     }, 
@@ -28,7 +28,7 @@ const projects =[
                         },
         data:[
             'Created a full Rails API to save and fetch data',
-            'Serialized the backend with Active Model Serializer to format the API',
+            'Serialized the back-end with Active Model Serializer to format the API',
             'Imported CSS library from Semantic-UI to stylize the user experience',
             'Implemented React to create an interactive single-page application',
         ]
