@@ -315,8 +315,9 @@ a {
   .header{
     display:flex;
     flex-direction: column;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    padding: 6px;
+    /* border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; */
   }
 
   #headerPic{
@@ -324,6 +325,7 @@ a {
     margin-right: auto;
     width: 250px;
     height: 250px;
+    
   }
 
   .demoVideo{
@@ -342,7 +344,7 @@ a {
     height: 60px;
   }
   .links>* {
-    flex: 1 1 20px;
+    flex: 1 1 25px;
   }
 
   .links>a {
@@ -356,5 +358,17 @@ a {
   .cardContainer{
     border-radius: 20px;
   }
+
+  .content{
+    /* margin: none; */
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .card{
+    margin: 0px;
+  }
+
   
 }
