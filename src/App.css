@@ -310,3 +310,45 @@ a {
   font-stretch: condensed;
   
 } */
+
+@media screen and (max-width: 480px) {
+  .header{
+    display:flex;
+    flex-direction: column;
+  }
+
+  #headerPic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
+
+  .demoVideo{
+    /* min-width:none; */
+    /* min-height: none; */
+    min-width:300px;
+    min-height: 150px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* float: center; */
+  }
+
+  .links{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60px;
+  }
+  .links>* {
+    flex: 1 1 20px;
+  }
+
+  .links>a {
+    margin-left: auto;
+  }
+
+  .moveButton{
+    display:none;
+  }
+  
+}
