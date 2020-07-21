@@ -1,6 +1,7 @@
 body{
   background-color: black;
   color: white;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 div {
@@ -100,6 +101,7 @@ a {
   /* text-align: center; */
   padding-left: 2%;
   /* color: #C29833; */
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .shortBio {

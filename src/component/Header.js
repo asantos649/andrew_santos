@@ -3,7 +3,7 @@ import React from 'react'
 function Header(){
     return(
         <div className='header'>
-            <img id='headerPic' src='andrew_picture.png'style={{width:'170px', height:'170px'}}/>
+            <img id='headerPic' src='andrew_picture.png' style={{width:'170px', height:'170px'}} alt='Andrew J. Santos, React Developer'/>
             <div>
                 <div className='name'>Andrew J. Santos</div>
                 <div className='shortBio'>
