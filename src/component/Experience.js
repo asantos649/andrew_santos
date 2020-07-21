@@ -8,7 +8,7 @@ function Experience(){
             company: 'Flatiron School',
             location: 'New York, NY',
             role: 'Software Engineering Coach',
-            dates: 'November 2019 - Present',
+            dates: 'November 2019 to Present',
             data: [
                 'Teach beginner and intermediate coding principles to students who are new to the industry',
                 'Handle both technical and interpersonal issues arising in cohorts of up to 30 students',

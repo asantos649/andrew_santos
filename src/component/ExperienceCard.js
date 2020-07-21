@@ -9,8 +9,8 @@ function ExperienceCard(props){
                 <div>{dates}</div>
             </div>
             <div className='cardRow'>
-                <div>{location}</div>
                 <div>{role}</div>
+                <div>{location}</div>
             </div>
             <ul className='cardList'>
                 {data.map(desc=>{

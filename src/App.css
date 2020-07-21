@@ -370,8 +370,14 @@ a {
     margin-right:auto;
   }
 
-  .card{
-    /* margin: 0px; */
+  .cardRow{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+
+  .cardTitle{
+    margin-bottom:5px;
   }
 
   

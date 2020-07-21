@@ -5,8 +5,8 @@ const educationHash = [
     {
         school: 'Flatiron School',
         location: 'New York, NY',
-        degree: 'Software Engineering Immersive Program',
-        dates: 'July 2019 - October 2019',
+        degree: 'Software Engineering Immersive',
+        dates: 'July 2019 to October 2019',
         data: [
             
         ]
