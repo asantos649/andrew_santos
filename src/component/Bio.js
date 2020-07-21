@@ -20,13 +20,10 @@ function Bio(){
                         </li>
                     </tr>
                     <tr className='bioRow'>
-                        <th className = 'bioLabel'>Programming Languages:</th>
+                        <th className = 'bioLabel'>Technical Skills:</th>
                         <li>Javascript</li>
                         <li>Ruby</li>
                         <li>Python</li>
-                    </tr>
-                    <tr className='bioRow'>
-                        <th className = 'bioLabel'>Technical Skills:</th>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>React</li>
