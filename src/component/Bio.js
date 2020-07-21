@@ -9,51 +9,51 @@ function Bio(){
                     <div className='bioTable'>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Hometown:</th>
-                        <div>
+                        <li>
                             Pleasantville, NY
-                        </div>
+                        </li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>High School:</th>
-                        <div>
+                        <li>
                             Pleasantville High School
-                        </div>
+                        </li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Programming Languages:</th>
-                        <div>Javascript</div>
-                        <div>Ruby</div>
-                        <div>Python</div>
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Python</li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Technical Skills:</th>
-                        <div>HTML</div>
-                        <div>CSS</div>
-                        <div>React</div>
-                        <div>Redux</div>
-                        <div>Rails</div>
-                        <div>Flask</div>
-                        <div>Socket.io</div>
-                        <div>SQL</div>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Rails</li>
+                        <li>Flask</li>
+                        <li>Socket.io</li>
+                        <li>SQL</li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Favorite Sports Teams:</th>
-                        <div>Yankees</div>
-                        <div>Jets</div>
-                        <div>Knicks</div>
-                        <div>Fighting Irish</div>
+                        <li>Yankees</li>
+                        <li>Jets</li>
+                        <li>Knicks</li>
+                        <li>Fighting Irish</li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Hobbies:</th>
-                        <div>Dungeons and Dragons</div>
-                        <div>Golf</div>
-                        <div>Tuba</div>
-                        <div>Video games</div>
+                        <li>Dungeons and Dragons</li>
+                        <li>Golf</li>
+                        <li>Tuba</li>
+                        <li>Video games</li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Fun Facts:</th>
-                        <div>Both of my parents were born in Portugal</div>
-                        <div>I have performed with the band Chicago</div>
+                        <li>Both of my parents were born in Portugal.</li>
+                        <li>I have performed with the band Chicago.</li>
                     </tr>
                     </div>
                 </div>
