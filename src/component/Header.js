@@ -8,12 +8,12 @@ function Header(){
                 <div className='name'>Andrew J. Santos</div>
                 <div className='shortBio'>
                     Full stack web developer with experience in Ruby on Rails, JavaScript, React, and Redux projects.  
-                    I spent three years as a software tester in the healthcare IT industry before making a career change and becoming a developer.
+                    I spent three years as a software tester in the healthcare industry before making a career change and becoming a developer.
                     I want to use my creativity and problem-solving skills to work on new and exciting projects.  
                 </div>
                 <div className='links'>
                     <div>914-980-9500</div>
-                    <div>asantos@alumni.nd.edu</div>
+                    <a href='mailto:asantos@alumni.nd.edu'>asantos@alumni.nd.edu</a>
                     <a href='https://www.linkedin.com/in/andrew-j-santos/'>LinkedIn</a>
                     <a href='https://github.com/asantos649'>Github</a>  
                 </div>
