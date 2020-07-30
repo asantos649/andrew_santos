@@ -9,6 +9,7 @@ function ProjectCard(props){
             </div>
             <div className='cardRow'>
                 <a href={githubLink}>Link to Code</a>
+                {collaboration.name !== '' && <div>In collaboration with: <a href={collaboration.link}>{collaboration.name}</a></div>}
             </div>
             <div className='demoWrapper'>
                 <iframe 

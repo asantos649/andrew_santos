@@ -23,8 +23,8 @@ const projects =[
         videoLink: 'https://www.youtube.com/embed/mKK0Bi0X3QE',
         description: 'Mock Reddit application',
         collaboration: {
-                            name:'',
-                            link:''
+                            name:'Tyler Knapp',
+                            link:'https://www.linkedin.com/in/tyler-knapp-072137b7/'
                         },
         data:[
             'Created a full Rails API to save and fetch data',
