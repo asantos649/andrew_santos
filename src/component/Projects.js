@@ -36,8 +36,8 @@ const projects =[
 ]
 
 let renderProjects = () =>{
-    return projects.map((pro)=>{
-         return <ProjectCard project={pro}/>
+    return projects.map((pro, idx)=>{
+         return <ProjectCard key={idx} project={pro}/>
      })
  }
 

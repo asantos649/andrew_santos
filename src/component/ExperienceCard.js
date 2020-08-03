@@ -13,8 +13,8 @@ function ExperienceCard(props){
                 <div>{location}</div>
             </div>
             <ul className='cardList'>
-                {data.map(desc=>{
-                    return <li className='cardDescription'>{desc}</li>
+                {data.map((desc,idx)=>{
+                    return <li key={idx} className='cardDescription'>{desc}</li>
                 })}
             </ul>
             

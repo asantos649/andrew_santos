@@ -23,8 +23,8 @@ const educationHash = [
     ]
 
 let renderEducation = () =>{
-    return educationHash.map((edu)=>{
-         return <EducationCard education={edu}/>
+    return educationHash.map((edu, idx)=>{
+         return <EducationCard key={idx} education={edu}/>
      })
  }
 

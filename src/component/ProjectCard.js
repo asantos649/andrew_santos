@@ -15,15 +15,15 @@ function ProjectCard(props){
                 <iframe 
                     className='demoVideo'
                     src={videoLink}
-                    frameborder='0'
+                    frameBorder='0'
                     allow='autoplay; encrypted-media'
-                    allowfullscreen
+                    allowFullScreen
                     title='video'
                 />
             </div>
             <ul className='cardList'>
-                {data.map(desc=>{
-                    return <li className='cardDescription'>{desc}</li>
+                {data.map((desc,idx)=>{
+                    return <li key={idx} className='cardDescription'>{desc}</li>
                 })}
             </ul>
             

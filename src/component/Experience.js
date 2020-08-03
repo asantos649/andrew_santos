@@ -38,8 +38,8 @@ function Experience(){
         ]
 
     let renderExperiences = () =>{
-       return experienceHash.map((exp)=>{
-            return <ExperienceCard experience={exp}/>
+       return experienceHash.map((exp, idx)=>{
+            return <ExperienceCard key={idx} experience={exp}/>
         })
     }
 
