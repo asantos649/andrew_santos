@@ -318,6 +318,12 @@ a {
   /* opacity: .8; */
 }
 
+.collabLink{
+  opacity:.8;
+  font-size:1rem;
+}
+
+
 /* button {
   color: white;
   font-size: 2rem;
