@@ -32,6 +32,20 @@ const projects =[
             'Imported CSS library from Semantic-UI to stylize the user experience',
             'Implemented React to create an interactive single-page application',
         ]
+    },{
+        projectName: 'Clash Scouter',
+        githubLink: 'https://github.com/asantos649/clash_scouter',
+        videoLink: 'https://www.youtube.com/embed/5riHjZnUkNI',
+        description: 'League of Legends scouting website',
+        collaboration: {
+                            name:'',
+                            link:''
+                        },
+        data:[
+            'Parsed the Riot Games API to obtain relevant information on specific players',
+            'Designed the website from scratch using custom CSS',
+            'Supplemented design with imported React components from react-tooltip, react-circular-progressbar, and react-loader-spinner',
+        ]
     }
 ]
 
