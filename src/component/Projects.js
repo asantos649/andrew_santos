@@ -43,7 +43,7 @@ const projects =[
                         },
         data:[
             'Parsed the Riot Games API to obtain relevant information on specific players',
-            'Designed the website from scratch using custom CSS',
+            'Designed the UI from scratch using custom CSS',
             'Supplemented design with imported React components from react-tooltip, react-circular-progressbar, and react-loader-spinner',
         ]
     }
