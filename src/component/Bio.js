@@ -32,6 +32,8 @@ function Bio(){
                         <li>Flask</li>
                         <li>Socket.io</li>
                         <li>SQL</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
                     </tr>
                     <tr className='bioRow'>
                         <th className = 'bioLabel'>Favorite Sports Teams:</th>
