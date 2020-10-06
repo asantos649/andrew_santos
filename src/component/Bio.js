@@ -53,6 +53,7 @@ function Bio(){
                         <th className = 'bioLabel'>Fun Facts:</th>
                         <li>Both of my parents were born in Portugal.</li>
                         <li>I have performed with the band Chicago.</li>
+                        <li>I have played quidditch.</li>
                     </tr>
                     </div>
                 </div>
